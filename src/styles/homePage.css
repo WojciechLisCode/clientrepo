@@ -1,0 +1,13 @@
+.homepageMain {
+  margin-top: 30px;
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.homeButtons {
+}
+button {
+  width: 300px;
+  font-size: 1.5rem;
+  margin: 10px;
+}

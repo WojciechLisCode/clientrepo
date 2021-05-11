@@ -1,0 +1,17 @@
+.patientSignupMain {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  width: 280px;
+}
+.inputLine {
+  display: flex;
+  justify-content: space-between;
+}
+input,
+select {
+  width: 150px;
+}

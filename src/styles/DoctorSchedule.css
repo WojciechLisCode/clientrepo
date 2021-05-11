@@ -1,0 +1,16 @@
+.doctorScheduleMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+table {
+  width: 300px;
+}
+th {
+  background-color: grey;
+}
+table,
+th,
+td {
+  border: 1px black solid;
+}

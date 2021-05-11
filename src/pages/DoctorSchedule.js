@@ -1,3 +1,5 @@
+import "../styles/DoctorSchedule.css";
+
 import axios from "axios";
 import { useEffect, useState } from "react";
 
@@ -17,7 +19,7 @@ const DoctorSchedule = () => {
   }, []);
 
   return (
-    <div>
+    <div className="doctorScheduleMain">
       <h1>Who is on duty ?</h1>
       {doctors.status === "empty" ? (
         "loading"
@@ -26,7 +28,7 @@ const DoctorSchedule = () => {
           <tbody>
             <tr>
               <th>Doctor</th>
-              <th>availability</th>
+              <th>Availability</th>
             </tr>
             {doctors.data.data.map((doctor) => {
               return (

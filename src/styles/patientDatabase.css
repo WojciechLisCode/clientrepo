@@ -1,0 +1,8 @@
+.patientDatabaseMain {
+  margin-top: 30px;
+}
+.patientsDatabaseResults {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

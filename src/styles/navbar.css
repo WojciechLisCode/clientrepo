@@ -1,0 +1,12 @@
+.navbarMain {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  border: 1px black solid;
+  background-color: cadetblue;
+  font-size: 1rem;
+}
+.navbarMain * {
+  color: black;
+  margin: 5px;
+}

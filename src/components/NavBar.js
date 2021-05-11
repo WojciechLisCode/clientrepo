@@ -1,13 +1,15 @@
+import "../styles/navbar.css";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div>
+    <div className="navbarMain">
       <NavLink
         exact
         to="/"
         activeStyle={{
           fontWeight: "bold",
+          color: "white",
         }}
       >
         Home
@@ -17,6 +19,7 @@ const NavBar = () => {
         to="/doctorSchedule"
         activeStyle={{
           fontWeight: "bold",
+          color: "white",
         }}
       >
         Docotor Schedule
@@ -26,6 +29,7 @@ const NavBar = () => {
         to="/patientSignup"
         activeStyle={{
           fontWeight: "bold",
+          color: "white",
         }}
       >
         Patient Signup
@@ -35,6 +39,7 @@ const NavBar = () => {
         to="/patientDatabase"
         activeStyle={{
           fontWeight: "bold",
+          color: "white",
         }}
       >
         Patient Database
